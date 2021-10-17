@@ -1,0 +1,10 @@
+FILES:
+README -- This file
+Thread.hpp -- A class for representing a thread.
+ThreadsCollectionManager.hpp -- A manager for existing threads and their status.
+uthreads.cpp -- library implementation of uthreads.h
+Makefile -- Makefile for the project.
+
+Static library, that creates and manages user-level threads (with Round-Robin (RR) scheduling algorithm).
+A potential user will be able to include the library and use it according to the package’s public interface:
+the uthreads.h header file.
